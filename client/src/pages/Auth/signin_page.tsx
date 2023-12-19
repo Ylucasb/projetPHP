@@ -1,10 +1,10 @@
 import { SignIn } from "../../components/Auth/SignIn/signIn"
-import DesktopNav from "../../components/Nav/Desktop/desktop_nav"
+import NavigationBar from "../../components/Nav/nav";
 
 const SignInPage = () => {
     return (
         <>
-         <DesktopNav/>
+         <NavigationBar/>
          <SignIn/>
         </>
     )
